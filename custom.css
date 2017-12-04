@@ -1,0 +1,240 @@
+body {
+ 	background: #fff; //url(tlo.png);
+	font-family: 'Roboto';
+	font-size: 16px;
+	color: rgba(9, 41, 57, 1);
+
+}
+
+.logo{
+	background-color: #fff;
+	width: 100%;
+	padding: 40px 0;
+}
+
+/*main menu menu główne*/
+
+.menu{
+	position: sticky;
+	left: 0;
+	top: 0;
+	z-index: 100;
+
+    width: 100%;
+    padding: 0px 0;
+    margin-bottom: 0px;
+    background: #fff;
+    font-size: 20px;
+
+}
+
+.menu a{
+	padding-left: 4vw;
+	padding-right: 4vw;
+	color: rgba(9, 41, 57, 1) !important;
+}
+
+.menu ul li a{
+	background-color: #fff;
+	padding-left: 4vw;
+	padding-right: 4vw;
+	color: rgba(9, 41, 57, 1) !important;
+}
+
+.menu ul li:hover{
+	background-color: rgba(221, 3, 48, 1);
+}
+
+.menu ul li a:hover{
+	color: #fff !important;
+}
+
+
+/*slider*/
+.slide{
+	margin-bottom: 2vw;
+}
+
+.carousel{
+	max-height: 500px;
+}
+
+.item{
+		height: 500px;
+		opacity: 0.7;
+}
+
+
+/*socials*/
+.socials{
+	text-align: center;
+	background-color: #fff;
+	color: rgba(9, 41, 57, 1);
+	font-size: 40px;
+	margin-top: 1vw;
+}
+
+.fb{
+	width: 25%;
+	height: 2em;
+	float: left;
+	padding-top: 1em;
+	padding-bottom: 2em;
+}
+.gp{
+	width: 25%;
+	height: 2em;
+	float: left;
+	padding-top: 1em;
+	padding-bottom: 2em;
+}
+.in{
+	width: 25%;
+	height: 2em;
+	float: left;
+	padding-top: 1em;
+	padding-bottom: 2em;
+}
+.insta{
+	width: 25%;
+	height: 2em;
+	float: left;
+	padding-top: 1em;
+	padding-bottom: 2em;
+}
+
+.fb:hover
+{
+	background-color: #4668b3;
+}
+
+
+.gp:hover
+{
+	background-color: #d94348;
+}
+
+.in:hover
+{
+	background-color: #0077b5;
+}
+
+.insta:hover
+{
+	background-color: #8a3ab9;
+}
+
+/*footer stopka*/
+.footer{
+	text-align: center;
+	background-color: rgba(221, 3, 48, 1);
+	padding-top: 1em;
+	padding-bottom: 1em;
+	color: #fff;
+
+}
+
+/*content treść*/
+
+#section-one, #section-two, #section-three, #section-four, #section-five{
+	text-align: center;
+	padding-top: 2vw;
+}
+
+.text{
+	justify-content: space-around;
+	text-align: justify;
+}
+
+#map{
+	text-align: center;
+	padding-top: 2vw;
+}
+
+.btn-default{
+	background: rgba(9, 41, 57, 1);
+	color: #fff;
+	border: none;
+}
+
+.btn-default:hover{
+	background: rgba(221, 3, 48, 1);
+	color: #fff;
+}
+
+/*services*/
+
+.icon{
+	width: 25%;
+	height: 1em;
+	float: left;
+	padding-bottom: 1.75em;
+	font-size: 10vw;
+	color: rgba(221, 3, 48, 1);
+}
+
+#icon{
+	text-align: center;
+	padding-top: 3vw;
+	font-size: 2vw;
+	font-family: 'Roboto';
+	color: rgba(9, 41, 57, 1);
+}
+
+.table, .table th{
+	text-align: center;
+	font-size: 16px;
+	font-family: 'Roboto';
+	color: rgba(9, 41, 57, 1);
+}
+
+ .table tr:hover{
+ 	background-color: rgba(9, 41, 57, 1) !important;
+ 	color: #fff;
+ }
+
+.partners{
+float: left;
+max-width: 50%;
+padding: 0 3vw 1vw 0;
+}
+
+#result{
+	text-align: center;
+	font-size: 30px;
+ 	margin-top: 2vw;
+ 	padding: 2vw 0 2vw 0;
+}
+
+#result:hover{
+	text-align: center;
+	font-size: 30px;
+	background-color: rgba(221, 3, 48, 1); !important;
+ 	color: #fff;
+ 	margin-top: 2vw;
+ 	padding: 2vw 0 2vw 0;
+}
+
+.btn-calc{
+	padding: 1vw 0vw 1vw 0vw;
+	margin-left: 2px;
+	/*margin-top: 2vw;*/
+}
+
+#type, #weight, #x, #y, #z{
+	width: 10em;
+	padding: 0px 0px 0px 0px;
+ 	margin:  0px 0px 0px 0px;
+}
+
+/*
+
+#calc{
+	margin-left: 2em; 
+	margin-right: 2em; 
+}
+#myForm
+
+rgba(221, 3, 48, 1)
+rgba(9, 41, 57, 1)
+*/
